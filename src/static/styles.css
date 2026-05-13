@@ -23,6 +23,7 @@
 
   /* Feedback colors */
   --success: #2e7d32;
+  --success-text: #ffffff;
   --success-light: #e8f5e9;
   --warning: #ff9800;
   --warning-light: #fff3cd;
@@ -666,7 +667,7 @@ footer {
 }
 .announcement-banner {
   background-color: var(--success);
-  color: var(--primary-text);
+  color: var(--success-text);
   text-align: center;
   padding: 15px;
   font-weight: bold;
